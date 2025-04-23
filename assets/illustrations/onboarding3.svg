@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+	<!-- Background -->
+	<rect x="0" y="0" width="300" height="300" fill="#F5F5F5" rx="8" />
+	<!-- Delivery motorbike -->
+	<g transform="translate(40, 130)">
+		<!-- Motorbike body -->
+		<path d="M160,70 L180,70 C190,70 200,80 200,100 L180,100 C180,90 170,90 170,90 L120,90 C110,90 100,80 100,70 L120,70 L140,50 C150,40 155,70 160,70 Z" fill="#4B6587" stroke="#333" stroke-width="2" />
+		<!-- Wheels -->
+		<circle cx="95" cy="100" r="20" fill="#333" />
+		<circle cx="95" cy="100" r="15" fill="#666" />
+		<circle cx="95" cy="100" r="5" fill="#333" />
+		<circle cx="205" cy="100" r="20" fill="#333" />
+		<circle cx="205" cy="100" r="15" fill="#666" />
+		<circle cx="205" cy="100" r="5" fill="#333" />
+		<!-- Delivery box -->
+		<rect x="130" y="40" width="50" height="40" rx="5" fill="#8A5A34" />
+		<rect x="130" y="40" width="50" height="10" rx="2" fill="#6D4C34" />
+		<path d="M155,50 L155,80" stroke="#6D4C34" stroke-width="2" />
+		<!-- Driver -->
+		<circle cx="120" cy="60" r="15" fill="#FFDBB5" />
+		<rect x="110" cy="45" width="20" height="15" rx="10" fill="#333" />
+	</g>
+	<!-- House -->
+	<g transform="translate(200, 60)">
+		<rect x="0" y="40" width="70" height="60" fill="#F1DEC9" />
+		<path d="M0,40 L35,10 L70,40" fill="#C8B6A6" stroke="#333" stroke-width="2" />
+		<rect x="25" y="60" width="20" height="40" fill="#8D7B68" />
+		<circle cx="40" cy="80" r="2" fill="#F1DEC9" />
+		<rect x="10" y="50" width="15" height="15" fill="#A4907C" />
+		<rect x="45" y="50" width="15" height="15" fill="#A4907C" />
+	</g>
+	<!-- Coffee shop -->
+	<g transform="translate(10, 60)">
+		<rect x="0" y="30" width="70" height="70" fill="#A4907C" />
+		<rect x="25" y="70" width="20" height="30" fill="#8D7B68" />
+		<rect x="10" y="45" width="15" height="15" fill="#F1DEC9" />
+		<rect x="45" y="45" width="15" height="15" fill="#F1DEC9" />
+		<path d="M0,30 L35,0 L70,30" fill="#8A5A34" stroke="#333" stroke-width="2" />
+		<text x="35" y="20" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">
+			COFFEE
+		</text>
+	</g>
+	<!-- Dotted path connecting buildings -->
+	<path d="M80,140 C120,120 200,120 200,140" stroke="#6D4C34" stroke-width="2" stroke-dasharray="5,3" stroke-linecap="round" />
+	<!-- Coffee cup -->
+	<g transform="translate(135, 190)">
+		<rect x="0" y="0" width="30" height="40" rx="3" fill="#8A5A34" />
+		<rect x="0" y="0" width="30" height="8" rx="1" fill="#6D4C34" />
+		<rect x="30" y="8" width="6" height="15" rx="3" fill="#6D4C34" />
+		<!-- Steam -->
+		<path d="M10,0 C10,-5 15,-5 15,0 C15,-8 20,-8 20,0" fill="none" stroke="#DDD" stroke-width="1.5" />
+	</g>
+</svg>

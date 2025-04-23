@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+	<!-- Coffee cup base -->
+	<path d="M50,60 L150,60 L140,170 C140,175 135,180 130,180 L70,180 C65,180 60,175 60,170 L50,60 Z" fill="#6D4C34" stroke="#333" stroke-width="2" />
+	<!-- Cup rim -->
+	<path d="M45,60 L155,60 L155,70 C155,75 150,80 145,80 L55,80 C50,80 45,75 45,70 L45,60 Z" fill="#8A5A34" stroke="#333" stroke-width="2" />
+	<!-- Steam -->
+	<path d="M85,50 C85,35 95,35 95,50 M105,50 C105,30 115,30 115,50" stroke="#8A5A34" stroke-width="3" stroke-linecap="round" fill="none" />
+	<!-- Coffee inside cup -->
+	<path d="M60,80 L140,80 L132,165 C132,170 128,172 125,172 L75,172 C72,172 68,170 68,165 L60,80 Z" fill="#3E2723" />
+	<!-- Cup handle -->
+	<path d="M150,90 C170,90 170,110 150,110" stroke="#6D4C34" stroke-width="8" stroke-linecap="round" fill="none" />
+	<!-- Coffee beans scattered around -->
+	<ellipse cx="40" cy="110" rx="8" ry="5" transform="rotate(30, 40, 110)" fill="#3E2723" />
+	<ellipse cx="160" cy="120" rx="8" ry="5" transform="rotate(-20, 160, 120)" fill="#3E2723" />
+	<ellipse cx="35" cy="150" rx="8" ry="5" transform="rotate(45, 35, 150)" fill="#3E2723" />
+	<ellipse cx="170" cy="85" rx="8" ry="5" transform="rotate(15, 170, 85)" fill="#3E2723" />
+	<!-- Text -->
+	<text x="100" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#6D4C34" text-anchor="middle">
+		SIAKAP
+	</text>
+	<text x="100" y="50" font-family="Arial" font-size="14" fill="#8A5A34" text-anchor="middle">
+		COFFEE
+	</text>
+</svg>

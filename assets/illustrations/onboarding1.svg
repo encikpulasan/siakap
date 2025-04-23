@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+	<title>
+		Welcome to ZAS Coffee
+	</title>
+	<defs>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+			<stop stop-color="#9D6E48" offset="0%">
+			</stop>
+			<stop stop-color="#6D4C34" offset="100%">
+			</stop>
+		</linearGradient>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+			<stop stop-color="#F9EAD7" offset="0%">
+			</stop>
+			<stop stop-color="#E5D0B1" offset="100%">
+			</stop>
+		</linearGradient>
+	</defs>
+	<g id="Coffee-Shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<!-- Background -->
+		<rect id="Background" fill="#F5F5F5" x="0" y="0" width="300" height="300" rx="8">
+		</rect>
+		<!-- Coffee Shop Building -->
+		<rect x="30" y="120" width="240" height="160" rx="4" fill="#E1E4E8" />
+		<rect x="60" y="160" width="120" height="80" rx="2" fill="#D0E8F2" />
+		<rect x="200" y="170" width="60" height="110" rx="2" fill="#6D4C34" />
+		<circle cx="215" cy="220" r="5" fill="#F0C419" />
+		<rect x="80" y="80" width="140" height="30" rx="4" fill="#6D4C34" />
+		<text x="150" y="100" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
+			ZAS COFFEE
+		</text>
+		<!-- Coffee Cup -->
+		<g transform="translate(100, 200)">
+			<defs>
+				<linearGradient id="cupGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+					<stop offset="0%" stop-color="#9D6E48" />
+					<stop offset="100%" stop-color="#6D4C34" />
+				</linearGradient>
+			</defs>
+			<rect x="0" y="0" width="40" height="60" rx="4" fill="url(#cupGradient)" />
+			<rect x="0" y="10" width="40" height="10" rx="2" fill="#8A5A34" />
+			<rect x="40" y="15" width="10" height="20" rx="5" fill="#6D4C34" />
+			<path d="M10,0 Q15,-10 20,0 Q25,-10 30,0" stroke="#CCCCCC" stroke-width="3" fill="none" />
+		</g>
+		<!-- Coffee Beans -->
+		<ellipse id="Bean1" fill="#6D4C34" cx="200" cy="190" rx="8" ry="5" transform="rotate(30)">
+		</ellipse>
+		<ellipse id="Bean2" fill="#6D4C34" cx="225" cy="200" rx="8" ry="5" transform="rotate(-20)">
+		</ellipse>
+		<ellipse id="Bean3" fill="#6D4C34" cx="210" cy="205" rx="8" ry="5" transform="rotate(60)">
+		</ellipse>
+	</g>
+</svg>

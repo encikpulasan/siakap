@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>
+		ZAS Coffee Logo
+	</title>
+	<defs>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+			<stop stop-color="#9D6E48" offset="0%">
+			</stop>
+			<stop stop-color="#6D4C34" offset="100%">
+			</stop>
+		</linearGradient>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+			<stop stop-color="#F9EAD7" offset="0%">
+			</stop>
+			<stop stop-color="#E5D0B1" offset="100%">
+			</stop>
+		</linearGradient>
+	</defs>
+	<g id="ZAS-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<!-- Background Circle -->
+		<circle id="Background" fill="#6D4C34" cx="60" cy="60" r="60">
+		</circle>
+		<!-- Coffee Cup -->
+		<path d="M40,40 L80,40 C85.523,40 90,44.477 90,50 L90,90 L30,90 L30,50 C30,44.477 34.477,40 40,40 Z" id="Coffee-Cup" fill="url(#linearGradient-1)">
+		</path>
+		<path d="M30,50 L90,50 L90,60 C90,61.105 89.105,62 88,62 L32,62 C30.895,62 30,61.105 30,60 L30,50 Z" id="Cup-Rim" fill="#8A5A34">
+		</path>
+		<ellipse id="Cup-Top" fill="url(#linearGradient-2)" cx="60" cy="40" rx="25" ry="8">
+		</ellipse>
+		<!-- Cup Handle -->
+		<path d="M90,45 L100,45 C103.866,45 107,48.134 107,52 L107,60 C107,63.866 103.866,67 100,67 L90,67 L90,45 Z" id="Cup-Handle" fill="#6D4C34" stroke="#8A5A34" stroke-width="2">
+		</path>
+		<!-- Steam -->
+		<path d="M50,30 C55,25 60,35 55,30 C60,25 65,35 60,30 C65,25 70,35 65,30" id="Steam" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+		</path>
+		<!-- Text -->
+		<text id="ZAS" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#FFFFFF">
+			<tspan x="44" y="75">
+				ZAS
+			</tspan>
+		</text>
+		<text id="COFFEE" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" fill="#FFFFFF">
+			<tspan x="45" y="85">
+				COFFEE
+			</tspan>
+		</text>
+	</g>
+</svg>

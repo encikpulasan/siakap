@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+	<title>
+		Order Ahead
+	</title>
+	<defs>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+			<stop stop-color="#9D6E48" offset="0%">
+			</stop>
+			<stop stop-color="#6D4C34" offset="100%">
+			</stop>
+		</linearGradient>
+		<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+			<stop stop-color="#F9EAD7" offset="0%">
+			</stop>
+			<stop stop-color="#E5D0B1" offset="100%">
+			</stop>
+		</linearGradient>
+	</defs>
+	<g id="Mobile-Order" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<!-- Background -->
+		<rect x="0" y="0" width="300" height="300" fill="#F5F5F5" rx="8" />
+		<!-- Hand holding phone -->
+		<g transform="translate(65, 50)">
+			<!-- Hand -->
+			<path d="M120,220 C120,180 120,150 100,150 C80,150 60,160 60,170 C60,180 80,230 100,240 C120,250 170,250 170,210 C170,190 170,150 170,110 C170,70 150,50 120,50 C90,50 70,70 70,110 L70,180" fill="#FFDBB5" stroke="#333" stroke-width="2" />
+			<!-- Phone outline -->
+			<rect x="80" y="70" width="70" height="140" rx="10" fill="#333" />
+			<!-- Phone screen -->
+			<rect x="85" y="75" width="60" height="130" rx="5" fill="#FFF" />
+			<!-- App content: Coffee order -->
+			<rect x="90" y="85" width="50" height="15" rx="2" fill="#E1E4E8" />
+			<rect x="90" y="105" width="50" height="50" rx="4" fill="#6D4C34" />
+			<rect x="90" y="160" width="30" height="10" rx="2" fill="#E1E4E8" />
+			<rect x="90" y="175" width="50" height="20" rx="4" fill="#8A5A34" />
+			<text x="115" y="190" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">
+				ORDER
+			</text>
+		</g>
+		<!-- Coffee cup (background element) -->
+		<g transform="translate(30, 180)">
+			<rect x="0" y="0" width="40" height="50" rx="4" fill="#8A5A34" />
+			<rect x="0" y="0" width="40" height="10" rx="2" fill="#6D4C34" />
+			<rect x="40" y="10" width="8" height="20" rx="4" fill="#6D4C34" />
+		</g>
+		<!-- Coffee beans scattered -->
+		<ellipse cx="40" cy="150" rx="10" ry="6" fill="#6D4C34" transform="rotate(30 40 150)" />
+		<ellipse cx="250" cy="130" rx="8" ry="5" fill="#8A5A34" transform="rotate(45 250 130)" />
+		<ellipse cx="230" cy="200" rx="12" ry="7" fill="#6D4C34" transform="rotate(15 230 200)" />
+	</g>
+</svg>
